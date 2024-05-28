@@ -192,6 +192,10 @@ solutions:
 
       echo "export PATH=/usr/local/bin:/usr/local/sbin:$PATH" >> ~/.bashrc
 
+    or if you're in silicon-powered Mac,
+
+      export PATH=/opt/homebrew/bin:$PATH >> ~/.zshrc
+
   * Reload ``.bashrc`` to ensure the changes have taken place::
 
       source ~/.bashrc
